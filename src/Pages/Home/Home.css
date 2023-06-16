@@ -1,0 +1,65 @@
+.profile-photo{
+    height: 400px;
+    padding: 8px;
+    border: 1px solid yellow;
+}
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+.s-text{
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.display-flex1{
+    padding: 0px 20px;
+    margin-top: 0px;
+    width: 800px;
+    border: 8px solid gray;
+    border-bottom-right-radius: 50px;
+}
+@media only screen and (max-width: 516px){
+    .display-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+    .profile-photo{
+        height: 200px;
+        width: 200px;
+        padding: 5px;
+        border: 1px solid yellow;
+    }
+    .s-text{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 700;
+        background: -webkit-linear-gradient(#eee, #333);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .display-flex1{
+        padding: 12px 12px;
+        width: 320px;
+        border: 5px solid gray;
+        border-bottom-right-radius: 40px;
+        margin-top: 20px;
+    }
+}
+/* Border Design */
+.profile-photo{
+    color:red;
+    font-weight:bold;
+    animation: myanimation 3s infinite;
+}
+@keyframes myanimation{ 
+    50%{background-color:lightcoral;}
+    75%{background-color:skyblue;}
+    100%{background-color:lightyellow;}
+}

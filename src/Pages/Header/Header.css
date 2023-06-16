@@ -1,0 +1,23 @@
+.header-image{
+    height: 40px;
+    width: 110px;
+    border-radius: 8px;
+    border: 0px solid red;
+    padding: 3px;
+}
+.header-image {
+    
+    color:red;
+    font-weight:bold;
+    animation: myanimation1 3s infinite;
+  }
+  
+  @keyframes myanimation1 {
+    75%{background-color:skyblue;}
+  }
+  
+.header-option1{
+    color: white;
+    font-weight: 600;
+}
+
