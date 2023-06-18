@@ -12,7 +12,7 @@ const Home = () => {
   };
     
     return (
-        <div> 
+        <div className='home-body'> 
           <section className='sec-1'>
             <motion.div className='display-flex'
             initial={{opacity: "00", }}

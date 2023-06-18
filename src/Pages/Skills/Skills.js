@@ -37,68 +37,68 @@ const Skills = () => {
             exit={{opacity: "100%",  }}>
                
                 <div className='cer-col cer-1'>
-                    <div className=' mb-4'><img  src={a} alt="" /></div>
-                    <div className=' mb-4'><img  src={b} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={a} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={b} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={c} alt="" /></div>
-                    <div className=' mb-4'><img  src={d} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={c} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={d} alt="" /></div>
                 </div>
 
-                <motion.div className='cer-col'>
-                    <div className=' mb-4'><img  src={e} alt="" /></div>
-                    <div className=' mb-4'><img  src={f} alt="" /></div>
-                </motion.div>
+                <div className='cer-col'>
+                    <div className='signboard1 mb-4'><img  src={e} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={f} alt="" /></div>
+                </div>
 
                 <div className='cer-col'>    
-                    <div className=' mb-4'><img  src={g} alt="" /></div>
-                    <div className=' mb-4'><img  src={h} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={g} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={h} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={i} alt="" /></div>
-                    <div className=' mb-4'><img  src={j} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={i} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={j} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={k} alt="" /></div>
-                    <div className=' mb-4'><img  src={l} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={k} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={l} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={m} alt="" /></div>
-                    <div className=' mb-4'><img  src={n} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={m} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={n} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={o} alt="" /></div>
-                    <div className=' mb-4'><img  src={p} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={o} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={p} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={q} alt="" /></div>
-                    <div className=' mb-4'><img  src={r} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={q} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={r} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={s} alt="" /></div>
-                    <div className=' mb-4'><img  src={t} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={s} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={t} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={u} alt="" /></div>
-                    <div className=' mb-4'><img  src={v} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={u} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={v} alt="" /></div>
                 </div>
 
                 <div className='cer-col'>
-                    <div className=' mb-4'><img  src={wSSC} alt="" /></div>
-                    <div className=' mb-4'><img  src={xHSC} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={wSSC} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={xHSC} alt="" /></div>
                 </div>
 
                 <div className='cer-col mb-10'>
-                    <div className=' mb-4'><img  src={yBSc} alt="" /></div>
-                    <div className=' mb-4'><img  src={zMSc} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={yBSc} alt="" /></div>
+                    <div className='signboard1 mb-4'><img  src={zMSc} alt="" /></div>
                 </div>
                
             </motion.div>

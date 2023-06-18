@@ -1,0 +1,192 @@
+.contact-body{
+    background-color: #1a1728;
+    color: white;
+    padding: 50px;
+}
+.contact-container{
+    display: grid;
+    justify-content: center;
+    background-color: #1F4F4F;
+    padding: 30px 0px;
+}
+.signboard3 {
+    /* (B1) SIZING */
+    width:100%;
+    /* (B3) BORDER */
+    border: 1px solid #00e1ff;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
+    
+}
+.contact-info{
+    background-color: #1a1728;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 7px;
+}
+.contact-info-mail{
+    background-color: #1a1728;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 7px;
+}
+@keyframes flicker {
+    from {
+      text-shadow:
+      0 0 3px yellowgreen,0 0 5px yellowgreen,
+      0 0 3px yellowgreen, 0 0 10px yellowgreen;
+    }
+    to {
+      text-shadow:
+      0 0 5px #09889c, 0 0 10px #09889c,
+      0 0 5px #09889c, 0 0 20px #09889c;
+    }
+  }
+  
+  /* (C) ATTACH ANIMATION */
+  .flick { animation: flicker 1s ease-in-out infinite alternate; }
+
+
+  @keyframes flicker1 {
+    from {
+      text-shadow:
+      0 0 3px coral,0 0 5px coral,
+      0 0 3px coral, 0 0 10px coral;
+    }
+    to {
+      text-shadow:
+      0 0 5px #09889c, 0 0 10px #09889c,
+      0 0 5px #09889c, 0 0 20px #09889c;
+    }
+  }
+  
+  /* (C) ATTACH ANIMATION */
+  .flick1 { animation: flicker1 1s ease-in-out infinite alternate; }
+
+
+
+.icon-section{
+    border: 1px solid red;
+    box-shadow: 0 0 30px rgb(235, 152, 152);
+    margin-top: 40px;
+    padding: 50px 0px;
+}
+  .all-icons1{
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+}
+  .all-icons1 img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid white;
+} 
+.all-icons2:hover{
+    border: 3px solid #00e1ff;
+    box-shadow: 0 0 30px rgb(144, 144, 235);
+    background-color: #00e1ff;
+} 
+.all-icons3:hover{
+    border: 3px solid red;
+    box-shadow: 0 0 30px red;
+    background-color:salmon;
+} 
+.all-icons4:hover{
+    border: 3px solid orange;
+    box-shadow: 0 0 30px orangered;
+    background-color:darkred;
+} 
+.all-icons5:hover{
+    border: 0px solid green;
+    box-shadow: 0 0 30px rgb(186, 221, 133);
+    background-color:yellow;
+} 
+.ax img{
+    background-color: rgb(92, 209, 92);
+}
+.all-icons6:hover{
+    border: 2px solid gold;
+    box-shadow: 0 0 30px rgb(186, 221, 133);
+    background-color:rgb(64, 212, 121);
+} 
+
+.mail-section{
+    margin: 30px 40px;
+    display: flex;
+    justify-content: center;
+}
+.mail-header{
+    margin-top: 100px;
+}
+.email-from{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.input1{
+    color: black;
+    font-weight: 400;
+    font-size:medium;
+    height: 40px;
+    border-radius: 10px;
+    border: 4px solid coral;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+.input2{
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+    height: 70px;
+    border-radius: 10px;
+    border: 4px solid coral;
+    padding: 0px 10px;
+}
+.label1{
+    color: coral;
+    font-weight: 600;
+}
+.send-btn{
+    background-color: coral;
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 600;
+    
+}
+.send-btn:hover{
+    background-color:orange;
+}
+@media only screen and (max-width: 516px){
+    .contact-body{
+        background-color: #1a1728;
+        color: white;
+        padding: 10px;
+    }
+    .contact-container{
+        display: grid;
+        justify-content: center;
+        background-color: #1F4F4F;
+        padding: 20px 10px;
+    }
+    .signboard3 {
+        /* (B1) SIZING */
+        width:100%;
+        /* (B3) BORDER */
+        border: 1px solid #00e1ff;
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+        
+    }
+}
+
+
