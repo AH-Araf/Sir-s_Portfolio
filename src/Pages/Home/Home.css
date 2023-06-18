@@ -1,7 +1,7 @@
 .profile-photo{
     height: 400px;
     padding: 8px;
-    border: 1px solid yellow;
+    border: 1px solid orange;
 }
 .display-flex{
     display: flex;
@@ -12,7 +12,7 @@
     font-size: 34px;
     font-style: italic;
     font-weight: 700;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#eee, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -23,6 +23,66 @@
     border: 8px solid gray;
     border-bottom-right-radius: 50px;
 }
+.section2{
+    margin: 30px;
+    
+}
+.h1{
+    font-size: x-large;
+    font-weight: 600;
+    background-color:aqua;
+    display: flex;
+    justify-content: center;
+    color: black;
+    border-radius: 10px;
+    
+}
+.h3{
+    font-size: x-large;
+    font-weight: 600;
+  
+}
+.p{
+    font-size: larger;
+   
+}
+.s2-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #1a1728;
+    color: white;
+    border: 3px solid orange;
+    border-bottom-color: #fb0094;
+    border-left-color:orchid;
+    border-right-color: #ff0000;
+}
+.col{
+    column-count: 2;
+}
+.sec-1{
+    border: 6px solid orange;
+    background-color: #1a1728;
+    border-bottom-right-radius:50px;
+    border-bottom-color: #fb0094;
+    border-left-color:orchid;
+    border-right-color: #ff0000;
+}
+.bio{
+    color: white;
+}
+.intro{
+    color: black;
+    background-color: orchid;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 0px 8px;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 516px){
     .display-flex{
         display: flex;
@@ -34,13 +94,22 @@
         height: 200px;
         width: 200px;
         padding: 5px;
-        border: 1px solid yellow;
+        border: 1px solid orange;
+    }
+    .intro{
+        color: black;
+        background-color:orchid;
+        font-size: larger;
+        font-weight: 700;
+        padding: 0px 8px;
+        border-radius: 5px;
+        margin-top: 10px;
     }
     .s-text{
         font-size: 24px;
         font-style: italic;
         font-weight: 700;
-        background: -webkit-linear-gradient(#eee, #333);
+        background: -webkit-linear-gradient(#eee, red);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -50,6 +119,39 @@
         border: 5px solid gray;
         border-bottom-right-radius: 40px;
         margin-top: 20px;
+    }
+    .h1{
+        font-size: larger;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .h3{
+        font-size: large;
+        font-weight: 600;
+      
+    }
+    .p{
+        font-size: large;
+       
+    }
+    .sec-1{
+        border: 4px solid orange;
+        background-color: #1a1728;
+        border-bottom-right-radius:50px;
+        border-bottom-color: #fb0094;
+        border-left-color:orchid;
+        border-right-color: #ff0000;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .s2-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 5px solid lightcoral; */
+        margin: 20px 15px;
+        
+        border-bottom-right-radius: 40px;
     }
 }
 /* Border Design */
@@ -61,5 +163,44 @@
 @keyframes myanimation{ 
     50%{background-color:lightcoral;}
     75%{background-color:skyblue;}
-    100%{background-color:lightyellow;}
+    100%{background-color:lightgreen;}
+}
+
+
+
+.block {
+	position: relative;
+	background: white;
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+    border-bottom-right-radius: 40px;
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(8px);
+    
 }

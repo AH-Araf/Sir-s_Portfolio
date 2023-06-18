@@ -1,0 +1,82 @@
+.certificate-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-cer{
+    background-color: #1a1728;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 5px;
+}
+
+.certificate-image img{
+    height: 450px;
+    width: 700px;
+   border: 6px solid orange;
+   border-bottom-color: #fb0094;
+   border-left-color:orchid;
+   border-right-color: #ff0000;
+   border-radius: 10px;
+}
+.cer-col{
+    column-count: 2;
+    gap: 40px;
+    margin: 10px;
+}
+.certificate-image img:hover{
+    border: 9px solid #ff0000;
+   border-bottom-color: orchid;
+   border-left-color:#fb0094;
+   border-right-color: orange;
+}
+
+@media only screen and (max-width: 516px){
+    .certificate-image img{
+        height: 180px;
+        width: 300px;
+        margin: 6px;
+        border: 5px solid orange;
+        border-bottom-color: #fb0094;
+        border-left-color:orchid;
+        border-right-color: #ff0000;
+        border-radius: 10px;
+    }
+    .certificate-image img:hover{
+        width: 310px;
+        border: 7px solid #ff0000;
+       border-bottom-color: orchid;
+       border-left-color:#fb0094;
+       border-right-color: orange;
+    }
+    .cer-col{
+        column-count: 1;
+    }
+    
+}
+
+/* .certificate-image2{
+    color:red;
+    font-weight:bold;
+    border-radius: 15px;
+    animation: cer1 3s infinite;
+}
+@keyframes cer1{ 
+    25%{background-color:orange;}
+    50%{background-color:lightcoral;}
+    75%{background-color:skyblue;}
+    100%{background-color:lightgreen;}
+}
+
+.certificate-image1{
+    color:red;
+    font-weight:bold;
+    border-radius: 15px;
+    animation: cer2 3s infinite;
+}
+@keyframes cer2{ 
+    25%{background-color:red;}
+    50%{background-color:gray;}
+    75%{background-color:bisque;}
+    100%{background-color:lightpink;}
+} */

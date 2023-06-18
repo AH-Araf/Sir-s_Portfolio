@@ -1,29 +1,36 @@
 import React from 'react';
 import './Footer.css'
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import a from '../assets/icons/facebook.png'
+import b from '../assets/icons/github.png'
+import c from '../assets/icons/instagram.png'
+import d from '../assets/icons/linkedin.png'
+import e from '../assets/icons/orcid.png'
+
 
 const Footer = () => {
     return (
         <div className='footer mt-16'>
             <div className='footer-container p-5'>
-            <p><small>All copyright reserved </small>
-            @ BD Vacancies
+            <p><small>All copyright reserved @ Saha Reno</small>
+            
             </p>
             <p>
                 
-                <small>E-mail: bdvacancies@gmail.com</small><br />
-                <small>Mobile: 01312-010261</small>
+                <small>📧 reno.saha39@gmail.com</small><br />
+                <small>📞 +880 1706364326</small> <br />
+                <small>🏠 Cumilla 3500, BD</small>
             </p>
             </div>
             <i class="fa-solid fa-flag"></i>
-            <FontAwesomeIcon icon={faEnvelope} />
-            <div className='p-5'>
-                {/* <Link to='https://www.facebook.com/profile.php?id=100005652766637'>Facebook</Link>
-                <Link to='https://www.linkedin.com/in/ah-araf/'>Linkedin</Link> */}
-                <Link to=''>Facebook</Link>
-                <Link to=''>Linkedin</Link>
+            
+          
+            <div className='p-5 all-icons'>
+                <Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='img1' src={a} alt="" /></Link>
+                <img target='_blank' className='img2' src={b} alt="" />
+                <img target='_blank' className='img3' src={c} alt="" />
+                <Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='img4' src={d} alt="" /></Link>
+                <Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='img5' src={e} alt="" /></Link>
             </div>
         </div>
     );

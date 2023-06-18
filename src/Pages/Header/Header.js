@@ -25,9 +25,8 @@ const Header = () => {
       </li> */}
      
       <li className='header-option1'><Link to='/article-paper'>Article & Paper</Link></li>
-        <li className='header-option1'><Link to='/skills'>Skills</Link></li>
+        <li className='header-option1'><Link to='/skills'>Certificate</Link></li>
         <li className='header-option1'><Link to='/education'>Education</Link></li>
-        {/* <li className='header-option1'><Link to='/work'>Work</Link></li> */}
         <li className='header-option1'><Link to='/experience'>Experience</Link></li>
         <li className='header-option1'><Link to='/contact'>Contact</Link></li>
       </ul>
@@ -63,9 +62,8 @@ const Header = () => {
       </li> */}
       
       <li className='header-option1'><Link to='/article-paper'>Article & Paper</Link></li>
-        <li className='header-option1'><Link to='/skills'>Skills</Link></li>
+        <li className='header-option1'><Link to='/skills'>Certificate</Link></li>
         <li className='header-option1'><Link to='/education'>Education</Link></li>
-        {/* <li className='header-option1'><Link to='/work'>Work</Link></li> */}
         <li className='header-option1'><Link to='/experience'>Experience</Link></li>
         <li className='header-option1'><Link to='/contact'>Contact</Link></li>
     </ul>
