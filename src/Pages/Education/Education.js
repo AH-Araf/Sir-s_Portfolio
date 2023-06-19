@@ -16,10 +16,10 @@ const Education = () => {
         initial={{opacity: "00", }}
             animate={{opacity: "100%", }}
             exit={{opacity: "100%",  }}>
-            <div className='cv-resume'>
+            {/* <div className='cv-resume'>
                 <a className='btn btn-outline btn-info' href={b} download={b.pdf}>Download CV</a>
                 <a className='btn btn-outline btn-info mt-top' href={a} download={a.pdf}>Download Resume</a> 
-            </div>
+            </div> */}
 
             <div className='msc-container'>
                 <div>
@@ -39,7 +39,7 @@ const Education = () => {
                     <img src={x} alt="" />
                 </div>
                 <div>
-                    <h1 className='text-header flick'>Bangladesh Army International University of Science and Technology</h1>
+                    <h1 className='text-header flick-cv'>Bangladesh Army International University of Science and Technology</h1>
                     <h1>Cumilla, Bangladesh</h1>
                     <h2>Batchelor of Science in Computer Science and Engineering (BS)</h2>
                     <p>CGPA: 3.98</p>
@@ -68,7 +68,7 @@ const Education = () => {
                 </div>
                 <div>
                 <div>
-                    <h1 className='text-header flick'>Cumilla Zilla School</h1>
+                    <h1 className='text-header flick-cv'>Cumilla Zilla School</h1>
                     <h1>Cumilla, Bangladesh</h1>
                     <h2>Secondary School Certificate (SSC)</h2>
                     <p>GPA: 5.00 (Golden)</p>
@@ -82,7 +82,7 @@ const Education = () => {
                 </div>
                 <div>
                 <div>
-                    <h1 className='text-header flick'>YWCA Nursery School</h1>
+                    <h1 className='text-header flick-cv'>YWCA Nursery School</h1>
                     <h1>Cumilla, Bangladesh</h1>
                     <h2>Elementary Education Level</h2>
                     <p>General Studies</p>

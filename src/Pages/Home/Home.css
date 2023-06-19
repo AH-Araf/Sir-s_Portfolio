@@ -4,7 +4,7 @@
 .profile-photo{
     height: 400px;
     padding: 8px;
-    border: 1px solid orange;
+    border: 1px solid gray;
 }
 .display-flex{
     display: flex;
@@ -15,7 +15,7 @@
     font-size: 34px;
     font-style: italic;
     font-weight: 700;
-    background: -webkit-linear-gradient(#eee, red);
+    background: -webkit-linear-gradient(#eee, gray);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -33,10 +33,10 @@
 .h1{
     font-size: x-large;
     font-weight: 600;
-    background-color:rgb(207, 141, 205);
+    background-color: rgb(175, 174, 174);
     display: flex;
     justify-content: center;
-    color: black;
+    color: white;
     border-radius: 10px;
     
 }
@@ -78,8 +78,8 @@
     color: white;
 }
 .intro{
-    color: black;
-    background-color: orchid;
+    color: white;
+    background-color: rgb(175, 174, 174);
     font-size: x-large;
     font-weight: 600;
     padding: 0px 8px;
@@ -97,11 +97,21 @@
         height: 200px;
         width: 200px;
         padding: 5px;
-        border: 1px solid orange;
+        border: 1px solid gray;
+    }
+    .profile-photo{
+        color:red;
+        font-weight:bold;
+        animation: myanimation 3s infinite;
+    }
+    @keyframes myanimation{ 
+        50%{background-color:gray;}
+        75%{background-color:black;}
+       
     }
     .intro{
-        color: black;
-        background-color:orchid;
+        color: white;
+        background-color: rgb(175, 174, 174);
         font-size: larger;
         font-weight: 700;
         padding: 0px 8px;
@@ -112,7 +122,7 @@
         font-size: 24px;
         font-style: italic;
         font-weight: 700;
-        background: -webkit-linear-gradient(#eee, red);
+        background: -webkit-linear-gradient(#eee, gray);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -164,9 +174,9 @@
     animation: myanimation 3s infinite;
 }
 @keyframes myanimation{ 
-    50%{background-color:lightcoral;}
-    75%{background-color:skyblue;}
-    100%{background-color:lightgreen;}
+    50%{background-color:gray;}
+    75%{background-color:black;}
+   
 }
 
 

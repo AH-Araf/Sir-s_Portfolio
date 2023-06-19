@@ -1,5 +1,7 @@
 import React from 'react';
 import b from '../assets/images/b.jpg'
+import d from '../assets/documents/resume.pdf'
+import e from '../assets/documents/cv.pdf'
 import './Home.css'
 import { Typewriter } from 'react-simple-typewriter';
 import { motion, AnimatePresence } from "framer-motion";
@@ -19,7 +21,12 @@ const Home = () => {
             animate={{opacity: "100%", }}
             exit={{opacity: "100%",  }}
             >
-                <div><img className='profile-photo' src={b} alt="" /></div>
+                <div><img className='profile-photo' src={b} alt="" />
+                <div className='cv-resume mt-5'>
+                <a className='btn btn-outline btn-info' href={e} download={e.pdf}>Download CV</a>
+                <a className='btn btn-outline btn-info mt-top' href={d} download={d.pdf}>Download Resume</a> 
+            </div>
+                </div>
 
 {/* Auto Write */}
                 <div className=' display-flex1'>
