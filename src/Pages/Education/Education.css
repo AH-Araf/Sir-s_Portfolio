@@ -8,6 +8,7 @@
    display: flex;
    justify-content: space-evenly;
 }
+
 .cvr-btn{
     background-color:skyblue;
     width: 180px;
@@ -102,6 +103,9 @@
         border: 1px solid skyblue;
         box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
         background-color: #1F4F4F;
+    }
+    .mt-top{
+        margin-top: 10px;
     }
     
     

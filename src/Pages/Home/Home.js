@@ -71,7 +71,7 @@ const Home = () => {
     <h3 className='h3'>Bangladesh Army International University of Science and Technology, Cumilla Cantonment, Bangladesh</h3>
     <p className='p'>Lecturer (Computer Science & Engineering) – Permanent for Full Time Service</p>
     <p className='p'>Mar 2019 – Present</p>
-
+    
     </motion.div>
     {/* <u><h1 className='h1'>Currently Working</h1></u>
     <h3 className='h3'>Bangladesh Army International University of Science and Technology, Cumilla Cantonment, Bangladesh</h3>

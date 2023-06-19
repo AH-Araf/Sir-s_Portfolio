@@ -17,8 +17,8 @@ const Education = () => {
             animate={{opacity: "100%", }}
             exit={{opacity: "100%",  }}>
             <div className='cv-resume'>
-                <a className='cvr-btn flick-cv' href={a} download={a.pdf}>Download Resume</a> 
-                <a className='cvr-btn flick-cv' href={b} download={b.pdf}>Download CV</a>
+                <a className='btn btn-outline btn-info' href={b} download={b.pdf}>Download CV</a>
+                <a className='btn btn-outline btn-info mt-top' href={a} download={a.pdf}>Download Resume</a> 
             </div>
 
             <div className='msc-container'>

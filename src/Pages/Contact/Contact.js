@@ -19,7 +19,7 @@ const Contact = () => {
       emailjs.sendForm('service_cymluun', 'template_5o7j0vp', form.current, 'g0j5cDpujfr2vRjoG')
         .then((result) => {
             console.log(result.text); 
-            alert('Message sent')   
+            alert('Message Sent')   
              
         }, (error) => {
             console.log(error.text);
@@ -34,7 +34,8 @@ const Contact = () => {
                     <p className='contact-info flick'>Contact Info</p>
                     <p>📞 +880 1706364326</p>  
                     <p>📧 reno.saha39@gmail.com</p>
-                    <Link><p>🔗 https://reno_saha.github.io/MyWebsite/</p></Link>
+                    <p>📧 saha.reno@baiust.edu.bd</p>
+                    <Link><p>🔗 https://saha-reno.web.app</p></Link>
                     <p>🏠 Cumilla 3500, Bangladesh</p>
                 </div>
         </div>
@@ -60,12 +61,12 @@ const Contact = () => {
                 <form className='email-from' ref={form} onSubmit={sendEmail}>
                     <h1 className='mail-header flick1 contact-info signboard3'>Send a message for Saha Reno</h1>
                     <label className='label1'>Enter Name</label>
-                    <input className='input1' type="text" name="from_name" />
+                    <input required className='input1' type="text" name="from_name" />
                     <label className='label1'>Enter Email</label>
-                    <input className='input1' type="email" name="from_email" />
+                    <input required className='input1' type="email" name="from_email" />
                     <label className='label1'>Write Message</label>
-                    <textarea className='input2' name="message" />
-                    <input className='send-btn'  type="submit" value="Send" />
+                    <textarea required className='input2' name="message" />
+                    <input className='btn btn-outline border-2 btn-error mt-5'  type="submit" value="Send" />
                 </form>
             </section>
         </div>
