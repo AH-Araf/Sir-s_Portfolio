@@ -1,115 +1,68 @@
-.certificate-image {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.small-cer{
+    color: blue;
 }
-.body-cer{
-    background-color: #1a1728;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 5px;
-}
-.signboard1 {
-    /* (B1) SIZING */
-    width:100%;
-    /* (B3) BORDER */
-    border: 2px solid #00e1ff;
-    border-radius: 11px;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
-}
-.signboard2 {
-    /* (B1) SIZING */
-    width:100%;
-    /* (B3) BORDER */
-    border: 2px solid yellowgreen;
-    border-radius: 11px;
-    box-shadow: 0 0 30px rgb(138, 235, 138);
-}
-.certificate-image img{
-    height: 450px;
-    width: 700px;
-   border: 6px solid orange;
-   border-bottom-color: #fb0094;
-   border-left-color:orchid;
-   border-right-color: #ff0000;
-   border-radius: 10px;
-}
-.cer-col{
+.msc-containerS{
     column-count: 2;
-    gap: 40px;
-    margin: 10px;
+    padding: 20px 30px;
+    transition-duration: 2.5s;
+    border: 4px solid gray;
+    margin-top: 10px;
 }
-.certificate-image img:hover{
-    border: 9px solid #ff0000;
-   border-bottom-color: orchid;
-   border-left-color:#fb0094;
-   border-right-color: orange;
+.t-header{
+    font-size: x-large;
+    font-weight: 700;
+}
+.t-body{
+    font-weight: 500;
+}
+.msc-containerS:hover{
+    padding: 20px 10px;
+    background-color:lavender;
+}
+.msc-containerS img{
+    width: 700px;
+    height: 440px;
+    font-size: 24px;
+    border: 5px solid lightgray;
+    padding: 2px;
+    min-height: 3em;
+    resize: both;
+    background-color:lavender;
+    
 }
 
 @media only screen and (max-width: 516px){
-    .certificate-image img{
-        height: 180px;
-        width: 300px;
-        margin: 6px;
-        border: 5px solid orange;
-        border-bottom-color: #fb0094;
-        border-left-color:orchid;
-        border-right-color: #ff0000;
-        border-radius: 10px;
-    }
-    .certificate-image img:hover{
-        width: 300px;
-        border: 7px solid #ff0000;
-       border-bottom-color: orchid;
-       border-left-color:#fb0094;
-       border-right-color: orange;
-    }
-    .cer-col{
+    .msc-containerS{
+        margin-top: 15px;
         column-count: 1;
-        margin: 0px;
+        padding: 10px;
     }
-    .signboard1 {
-        /* (B1) SIZING */
-        width:100%;
-        /* (B3) BORDER */
-        border: 2px solid #00e1ff;
-        border-radius: 11px;
-        box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+    .msc-containerS:hover{
+        background-color:lavender;
+        padding: 10px;
+        transition-duration: 2s;
     }
-    .signboard2 {
-        /* (B1) SIZING */
-        width:100%;
-        /* (B3) BORDER */
-        border: 2px solid yellowgreen;
-        border-radius: 11px;
-        box-shadow: 0 0 15px rgb(138, 235, 138);
+    .msc-containerS img{
+        width: 490px;
+        height: 200px;
+        border: 4px solid lightgray;
+        min-height: 3em;
+        resize: both;
+        background-color:lavender;
+        
     }
-    
-    
+    .skill-body{
+        background-color: #1a1728;
+        color: white;
+        padding: 20px 15px;
+    }
+    .t-header{
+        font-size: larger;
+        font-weight: 600;
+    }
+    .t-body{
+        font-weight: 500;
+    }
+     
 }
-
-/* .certificate-image2{
-    color:red;
-    font-weight:bold;
-    border-radius: 15px;
-    animation: cer1 3s infinite;
-}
-@keyframes cer1{ 
-    25%{background-color:orange;}
-    50%{background-color:lightcoral;}
-    75%{background-color:skyblue;}
-    100%{background-color:lightgreen;}
-}
-
-.certificate-image1{
-    color:red;
-    font-weight:bold;
-    border-radius: 15px;
-    animation: cer2 3s infinite;
-}
-@keyframes cer2{ 
-    25%{background-color:red;}
-    50%{background-color:gray;}
-    75%{background-color:bisque;}
-    100%{background-color:lightpink;}
-} */

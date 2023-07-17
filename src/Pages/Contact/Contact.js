@@ -66,7 +66,7 @@ const Contact = () => {
                     <input required className='input1' type="email" name="from_email" />
                     <label className='label1'>Write Message</label>
                     <textarea required className='input2' name="message" />
-                    <input className='btn btn-outline border-2 btn-error mt-5'  type="submit" value="Send" />
+                    <input className='btn btn-outline border-2  mt-5'  type="submit" value="Send" />
                 </form>
             </section>
         </div>

@@ -23,8 +23,8 @@ const Home = () => {
             >
                 <div><img className='profile-photo' src={b} alt="" />
                 <div className='cv-resume mt-5'>
-                <a className='btn btn-outline btn-info' href={e} download={e.pdf}>Download CV</a>
-                <a className='btn btn-outline btn-info mt-top' href={d} download={d.pdf}>Download Resume</a> 
+                <a className='btn btn-outline ' href={e} download={e.pdf}>Download CV</a>
+                <a className='btn btn-outline  mt-top' href={d} download={d.pdf}>Download Resume</a> 
             </div>
                 </div>
 
@@ -94,3 +94,13 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+
+
+
+
+
+
+

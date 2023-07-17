@@ -22,7 +22,7 @@ const Footer = () => {
                 <small>🏠 Cumilla 3500, BD</small>
             </p>
             </div>
-            <i class="fa-solid fa-flag"></i>
+            {/* <i class="fa-solid fa-flag"></i> */}
             
           
             <div className='p-5 all-icons'>

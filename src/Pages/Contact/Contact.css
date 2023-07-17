@@ -1,24 +1,21 @@
 .contact-body{
-    background-color: #1a1728;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 50px;
 }
 .contact-container{
     display: grid;
     justify-content: center;
-    background-color: #1F4F4F;
+    background-color: lavender;
     padding: 30px 0px;
 }
 .signboard3 {
-    /* (B1) SIZING */
     width:100%;
-    /* (B3) BORDER */
-    border: 1px solid #00e1ff;
-    box-shadow: 0 0 30px rgba(0, 255, 255, 0.8);
-    
+    border: 3px solid black;
 }
 .contact-info{
-    background-color: #1a1728;
+    background-color: black;
+    color: white;
     display: flex;
     justify-content: center;
     padding: 4px 0px;
@@ -35,46 +32,13 @@
     font-weight: 500;
     border-radius: 7px;
 }
-@keyframes flicker {
-    from {
-      text-shadow:
-      0 0 3px yellowgreen,0 0 5px yellowgreen,
-      0 0 3px yellowgreen, 0 0 10px yellowgreen;
-    }
-    to {
-      text-shadow:
-      0 0 5px #09889c, 0 0 10px #09889c,
-      0 0 5px #09889c, 0 0 20px #09889c;
-    }
-  }
-  
-  /* (C) ATTACH ANIMATION */
-  .flick { animation: flicker 1s ease-in-out infinite alternate; }
-
-
-  @keyframes flicker1 {
-    from {
-      text-shadow:
-      0 0 3px coral,0 0 5px coral,
-      0 0 3px coral, 0 0 10px coral;
-    }
-    to {
-      text-shadow:
-      0 0 5px #09889c, 0 0 10px #09889c,
-      0 0 5px #09889c, 0 0 20px #09889c;
-    }
-  }
-  
-  /* (C) ATTACH ANIMATION */
-  .flick1 { animation: flicker1 1s ease-in-out infinite alternate; }
-
 
 
 .icon-section{
-    border: 1px solid red;
-    box-shadow: 0 0 30px rgb(235, 152, 152);
+    border: 3px solid black;
     margin-top: 40px;
     padding: 50px 0px;
+    
 }
   .all-icons1{
     display: flex;
@@ -93,21 +57,25 @@
     border: 3px solid #00e1ff;
     box-shadow: 0 0 30px rgb(144, 144, 235);
     background-color: #00e1ff;
+    transition-duration: 2s;
 } 
 .all-icons3:hover{
     border: 3px solid red;
     box-shadow: 0 0 30px red;
     background-color:salmon;
+    transition-duration: 2s;
 } 
 .all-icons4:hover{
     border: 3px solid orange;
     box-shadow: 0 0 30px orangered;
     background-color:darkred;
+    transition-duration: 2s;
 } 
 .all-icons5:hover{
     border: 0px solid green;
     box-shadow: 0 0 30px rgb(186, 221, 133);
     background-color:yellow;
+    transition-duration: 2s;
 } 
 .ax img{
     background-color: rgb(92, 209, 92);
@@ -116,6 +84,7 @@
     border: 2px solid gold;
     box-shadow: 0 0 30px rgb(186, 221, 133);
     background-color:rgb(64, 212, 121);
+    transition-duration: 2s;
 } 
 
 .mail-section{
@@ -137,7 +106,7 @@
     font-size:medium;
     height: 40px;
     border-radius: 10px;
-    border: 4px solid coral;
+    border: 4px solid black;
     padding: 0px 10px;
     margin-bottom: 10px;
 }
@@ -147,15 +116,15 @@
     font-size: medium;
     height: 70px;
     border-radius: 10px;
-    border: 4px solid coral;
+    border: 4px solid black;
     padding: 0px 10px;
 }
 .label1{
-    color: coral;
+    color: black;
     font-weight: 600;
 }
 .send-btn{
-    background-color: coral;
+    background-color: black;
     width: 90px;
     height: 30px;
     margin: 10px;
@@ -165,27 +134,26 @@
     
 }
 .send-btn:hover{
-    background-color:orange;
+    background-color:black;
 }
 @media only screen and (max-width: 516px){
     .contact-body{
-        background-color: #1a1728;
-        color: white;
         padding: 10px;
     }
     .contact-container{
         display: grid;
         justify-content: center;
-        background-color: #1F4F4F;
+        background-color: lavender;
         padding: 20px 10px;
     }
     .signboard3 {
-        /* (B1) SIZING */
         width:100%;
-        /* (B3) BORDER */
-        border: 1px solid #00e1ff;
-        box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+        border: 3px solid black;
         
+    }
+    .mail-header{
+        margin-top: 40px;
+        padding: 0px 8px;
     }
 }
 

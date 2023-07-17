@@ -26,6 +26,8 @@
 }
 .all-icons img:hover{
     border-radius: 17px;
+    height: 34px;
+    transition-duration: .5s;
 }
 @media only screen and (max-width: 516px){
     .footer-container{
@@ -46,48 +48,4 @@
     }
 }
 
-.img1{
-    color:white;
-    font-weight:bold;
-    animation: a 2s infinite;
-}
-@keyframes a{ 
-    50%{background-color:red;}
-    75%{background-color:skyblue;}
-}
-.img2{
-    color:white;
-    font-weight:bold;
-    animation: b 2s infinite;
-}
-@keyframes b{ 
-    50%{background-color:brown;}
-    75%{background-color:rgb(231, 160, 134);}
-}
-.img3{
-    color:white;
-    font-weight:bold;
-    animation: c 2s infinite;
-}
-@keyframes c{ 
-    50%{background-color:blue;}
-    75%{background-color:black;}
-}
-.img4{
-    color:white;
-    font-weight:bold;
-    animation: d 2s infinite;
-}
-@keyframes d{ 
-    50%{background-color:red;}
-    75%{background-color:lightpink;}
-}
-.img5{
-    color:white;
-    font-weight:bold;
-    animation: e 2s infinite;
-}
-@keyframes e{ 
-    50%{background-color:blue;}
-    75%{background-color:black;}
-}
+

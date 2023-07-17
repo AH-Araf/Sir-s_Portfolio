@@ -1,34 +1,13 @@
 .education-body{
-    background-color: #1a1728;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 40px 80px;
     margin-top: 5px;
 }
-.cv-resume{
-   display: flex;
-   justify-content: space-evenly;
-}
 
-.cvr-btn{
-    background-color:skyblue;
-    width: 180px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
-    font-weight: 600;
-    color: white;
-    border-radius: 10px;
-    border: 4px solid orangered;
-}
-.cvr-btn:hover{
-    /* background-color:rgb(197, 215, 223);
-    border: 3px solid red; */
-    border: 4px solid coral;
-    box-shadow: 0 0 20px rgb(144, 144, 235);
-    background-color: skyblue;
-}
+
+
+
 
 @keyframes flickerL {
     from {
@@ -45,22 +24,25 @@
 .flick-cv { animation: flickerL 1s ease-in-out infinite alternate; }
 
 .msc-container{
-    margin-top: 60px;
+    margin-top: 20px;
     column-count: 2;
-    box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
     padding: 20px;
+    border: 4px solid lightgray;
 }
 
 .msc-container:hover{
     padding: 20px 50px;
+    background-color: lavender;
+    transition-duration: 2.5s;
 }
 
 .msc-container img{
     width: 250px;
     height: 300px;
-    border: 1px solid red;
-    box-shadow: 0 0 20px rgb(235, 152, 152);
-    background-color: #1F4F4F;
+    /* border: 3px solid lavenderblush; */
+    padding: 4px;
+    background-color: lightgray;
+    border-radius: 20px;
 }
 .text-header{
     font-size: larger;
@@ -77,8 +59,8 @@
         margin: 10px;
      }
      .education-body{
-        background-color: #1a1728;
-        color: white;
+        background-color: white;
+        color: black;
         padding: 20px 10px;
     }
     .text-header{
@@ -86,24 +68,22 @@
     }
 
     .msc-container{
-        margin-top: 60px;
+        margin-top: 20px;
         column-count: 1;
-        box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
         padding: 20px;
     }
     .msc-container:hover{
-        margin-top: 60px;
+        margin-top: 20px;
         column-count: 1;
-        box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
         padding: 20px;
     }
-    .msc-container img:hover{
+    /* .msc-container img:hover{
         width: 250px;
         height: 300px;
         border: 1px solid skyblue;
         box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
         background-color: #1F4F4F;
-    }
+    } */
     .mt-top{
         margin-top: 10px;
     }

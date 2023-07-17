@@ -36,70 +36,397 @@ const Skills = () => {
             animate={{opacity: "100%", }}
             exit={{opacity: "100%",  }}>
                
-                <div className='cer-col cer-1'>
-                    <div className='signboard1 mb-4'><img  src={a} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={b} alt="" /></div>
+               <div className='msc-containerS'>
+                <div>
+                    <img src={a} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={c} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={d} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={b} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={e} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={f} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={c} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>    
-                    <div className='signboard1 mb-4'><img  src={g} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={h} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={d} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={i} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={j} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={e} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={k} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={l} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={f} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={m} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={n} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={g} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={o} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={p} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={h} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={q} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={r} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={i} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={s} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={t} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={j} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={u} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={v} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={k} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col'>
-                    <div className='signboard1 mb-4'><img  src={wSSC} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={xHSC} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={l} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
                 </div>
 
-                <div className='cer-col mb-10'>
-                    <div className='signboard1 mb-4'><img  src={yBSc} alt="" /></div>
-                    <div className='signboard1 mb-4'><img  src={zMSc} alt="" /></div>
+                <div className='msc-containerS'>
+                <div>
+                    <img src={m} alt="" />
                 </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={n} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={o} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={p} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={q} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={r} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={s} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={t} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={u} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={v} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={wSSC} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={xHSC} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={yBSc} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                <div className='msc-containerS'>
+                <div>
+                    <img src={zMSc} alt="" />
+                </div>
+                <div>
+                    <h1 className='t-header'>Kondammal Trust Foundation</h1>
+                    <span className='t-body'>
+                    <h1>Chennai, India</h1>
+                    <h1>Web Development Intern</h1>
+                    <p>January 1, 2023 – February 1, 2023</p>
+                    <p>Internship Duration: 1 Month</p>
+                    </span>
+                </div>
+                </div>
+
+                
                
             </motion.div>
         </div>
