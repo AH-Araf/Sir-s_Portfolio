@@ -1,5 +1,7 @@
 .home-body{
    margin-bottom: 80px;
+   /* font-family: Helvetica, Helvetica, sans-serif; */
+   font-family: "Times New Roman", Times, serif;
 }
 .profile-photo{
     height: 400px;
@@ -70,6 +72,7 @@
 }
 .bio{
     color: black;
+    
 }
 .intro{
     color: white;
