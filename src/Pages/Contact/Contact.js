@@ -41,16 +41,16 @@ const Contact = () => {
         </div>
         <section className='icon-section'>
         <div className='p-5 all-icons1'>
-                <Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='all-icons2' src={a} alt="" /></Link>
-                <Link><img target='_blank'  className='all-icons3' src={b} alt="" /></Link>
-                <Link target='_blank' to='https://api.whatsapp.com/send?phone=8801706364326'><div className='ax'><img className='all-icons6' src={g} alt="" /></div></Link>
-                <Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='all-icons2' src={d} alt="" /></Link>
+               <div><Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='all-icons2' src={a} alt="" /></Link> </div>
+                <div><Link><img target='_blank'  className='all-icons3' src={b} alt="" /></Link></div>
+                <div><Link target='_blank' to='https://api.whatsapp.com/send?phone=8801706364326'><div className='ax'><img className='all-icons6' src={g} alt="" /></div></Link></div>
+                <div><Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='all-icons2' src={d} alt="" /></Link></div>
         </div>
         <div className='p-5 all-icons1'>       
-                <Link><img target='_blank' className='all-icons4' src={c} alt="" /></Link>
-                <Link target='_blank' to='https://t.me/SahaReno'><img className='all-icons2' src={h} alt="" /></Link>
-                <Link target='_blank' to='https://twitter.com/SahaReno'><img className='all-icons2' src={f} alt="" /></Link>
-                <Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='all-icons5' src={e} alt="" /></Link>
+            <div><Link><img target='_blank' className='all-icons4' src={c} alt="" /></Link></div>
+            <div><Link target='_blank' to='https://t.me/SahaReno'><img className='all-icons2' src={h} alt="" /></Link></div>
+            <div><Link target='_blank' to='https://twitter.com/SahaReno'><img className='all-icons2' src={f} alt="" /></Link></div>
+            <div><Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='all-icons5' src={e} alt="" /></Link></div>
         </div>
         </section>
 

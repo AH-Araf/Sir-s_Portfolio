@@ -17,16 +17,16 @@
     
 }
 .all-icons img{
-    height: 30px;
-    width: 30px;
+    height: 34px;
+    width: 34px;
     background-color: white;
     border-radius: 10px;
     margin-right: 10px;
     border: 2px solid white;
+    transition-duration: 1s;
 }
 .all-icons img:hover{
-    border-radius: 17px;
-    height: 34px;
+    border-radius: 50%;
     transition-duration: .5s;
 }
 @media only screen and (max-width: 516px){

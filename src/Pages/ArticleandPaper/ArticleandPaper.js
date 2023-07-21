@@ -13,7 +13,7 @@ const ArticleandPaper = () => {
                         <h1>Authors: S Reno, SSRA Chowdhury, I Sadi <br /> DOI: 10.23743/ACS-2021-16 <br /> ISSN: 23536977 18953735</h1>
                     </div>
                     <div>
-                        <h1>Applied Computer Science (Q3) <br /> Published in Poland <br /> Volume: 17 & Issue: 02 <br /> acs.pollub.pl <br /> Scopus & DOAJ Indexed</h1>
+                        <h1 className='s-r'>Applied Computer Science (Q3) <br /> Published in Poland <br /> Volume: 17 & Issue: 02 <br /> acs.pollub.pl <br /> Scopus & DOAJ Indexed</h1>
                     </div>
                 </div>
                 <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
@@ -27,10 +27,10 @@ const ArticleandPaper = () => {
                         <h1>Authors: S Reno, MRI Bhuiyan, M Ahmed, MA Monyeem <br /> ISSN: 2789-6935</h1>
                     </div>
                     <div>
-                        <h1>BAIUST Academic Journal <br />Volume: 01 & Issue: 01 <br />journal.baiust.ac.bd <br />Peer Reviewed Journal</h1>
+                        <h1 className='s-r'>BAIUST Academic Journal <br />Volume: 01 & Issue: 01 <br />journal.baiust.ac.bd <br />Peer Reviewed Journal</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://www.researchgate.net/publication/352900860_Implementation_of_Private_Blockchain_in_Smart_Card_Management_System' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 2*/}
 
@@ -41,10 +41,10 @@ const ArticleandPaper = () => {
                         <h1>Authors: M Ahmed, S Reno, S Akter, AKMAN Chowdhury <br /> ISSN: 2789-6935 </h1>
                     </div>
                     <div>
-                    <h1>BAIUST Academic Journal <br />Volume: 02 & Issue: 01 <br />journal.baiust.ac.bd <br />Peer Reviewed Journal</h1>
+                    <h1 className='s-r'>BAIUST Academic Journal <br />Volume: 02 & Issue: 01 <br />journal.baiust.ac.bd <br />Peer Reviewed Journal</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://www.researchgate.net/publication/362711974_Decentralized_Finance_and_Crypto_Banking_System_Using_Ethereum-based_Blockchain_Technology' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 3*/}
 
@@ -55,10 +55,10 @@ const ArticleandPaper = () => {
                         <h1>Conference: 2021 International Conference on Information and Communication <br />Technology for Sustainable Development <br />Authors: S Bhowmik, S Reno, S Sultana, M Ahmed <br />DOI: 10.1109/ICICT4SD50815.2021.9396950</h1>
                     </div>
                     <div>
-                        <h1>ICICT4SD 2021 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                        <h1 className='s-r'>ICICT4SD 2021 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/abstract/document/9396950' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 4*/}
 
@@ -69,10 +69,10 @@ const ArticleandPaper = () => {
                         <h1>Conference: 2021 International Conference on Smart Generation Computing, <br />Communication and Networking <br />Authors: S Reno, SSRA Chowdhury <br />DOI: 10.1109/SMARTGENCON51891.2021.9645869</h1>
                     </div>
                     <div>
-                    <h1>SMART GENCON 2021 <br />Pune, India <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                    <h1 className='s-r'>SMART GENCON 2021 <br />Pune, India <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9645869' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 5*/}
 
@@ -83,10 +83,10 @@ const ArticleandPaper = () => {
                         <h1>Conference: 2021 International Conference on Automation, Control and Mechatronics <br />for Industry 4.0 <br />Authors: S Reno, S Bhowmik, M Ahmed <br />DOI: 10.1109/ACMI53878.2021.9528180</h1>
                     </div>
                     <div>
-                    <h1>ACMI 2021 <br />Rajshahi, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                    <h1 className='s-r'>ACMI 2021 <br />Rajshahi, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9528180' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 6*/}
 
@@ -97,10 +97,10 @@ const ArticleandPaper = () => {
                         <h1>Conference: 2021 2nd International Conference for Emerging Technology <br />Authors: S Reno, I Sadi, J Karmakar, M Abir <br />DOI: 10.1109/INCET51464.2021.9456418</h1>
                     </div>
                     <div>
-                    <h1>INCET 2021 <br />Karnataka, India <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                    <h1 className='s-r'>INCET 2021 <br />Karnataka, India <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/abstract/document/9456418' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 7*/}
 
@@ -111,10 +111,10 @@ const ArticleandPaper = () => {
                         <h1>Conference: 2021 International Conference on Computer and Information Technology <br />Authors: MS Hossan, ML Khatun, S Rahman, S Reno, M Ahmed <br />Status: 10.1109/ICCIT54785.2021.9689814</h1>
                     </div>
                     <div>
-                    <h1>ICCIT 2021 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                    <h1 className='s-r'>ICCIT 2021 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9689814' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 8*/}
 
@@ -128,10 +128,10 @@ Authors: M Ahmed, S Reno, N Akter, F Haque <br />
 DOI: 10.1109/ICCIT51783.2020.9392686</h1>
                     </div>
                     <div>
-                    <h1>ICCIT 2020 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
+                    <h1 className='s-r'>ICCIT 2020 <br />Dhaka, Bangladesh <br />ieeexplore.ieee.org <br />Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9392686' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 9*/}
 
@@ -144,13 +144,13 @@ Authors: M Ahmed, S Reno, M Ferdous, RM Shama <br />
 DOI: 10.1109/ASIANCON55314.2022.9909424</h1>
                     </div>
                     <div>
-                    <h1>ASIANCON 2022 <br />
+                    <h1 className='s-r'>ASIANCON 2022 <br />
 Ravet, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9909424' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 10*/}
 
@@ -163,13 +163,13 @@ Authors: S Tasfia, S Reno <br />
 DOI: 10.1109/ICAISS55157.2022.10011114</h1>
                     </div>
                     <div>
-                    <h1>ICAISS 2022 <br />
+                    <h1 className='s-r'>ICAISS 2022 <br />
 Trichy, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10011114' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 11*/}
 
@@ -182,32 +182,32 @@ Authors: S Reno, S Sultana <br />
 DOI: 10.1109/ICAISS55157.2022.10010734</h1>
                     </div>
                     <div>
-                    <h1>ICAISS 2022 <br />
+                    <h1 className='s-r'>ICAISS 2022 <br />
 Trichy, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10010734' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 12*/}
 
             <div className='paper-design'>      
                 <div className='paper'>
                     <div>
-                        <h1 className='text-header'>13. Analysis of Netcode, Latency, and Packet-loss in Online Multiplayer Games</h1>
+                        <h1 className='text-header'>13. Analysis of Netcode, Latency, and Packet-loss in Online Multiplayer Games.</h1>
                         <h1>Conference: 2022 International Conference on Augmented Intelligence and Sustainable Systems <br />
 Authors: M Ahmed, S Reno, MR Rahman, SH Rifat <br />
 DOI: 10.1109/ICAISS55157.2022.10010926</h1>
                     </div>
                     <div>
-                    <h1>ICAISS 2022 <br />
+                    <h1 className='s-r'>ICAISS 2022 <br />
 Trichy, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10010926' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 13*/}
 
@@ -218,13 +218,13 @@ Scopus Indexed</h1>
                         <h1>Conference: 2022 25th International Conference on Computer and Information Technology <br />Authors: SJ Chowdhury, E Aich, S Reno, M Ahmed <br />DOI: 10.1109/ICCIT57492.2022.10054775</h1>
                     </div>
                     <div>
-                    <h1>ICCIT 2022 <br />
+                    <h1 className='s-r'>ICCIT 2022 <br />
 Cox’s Bazar, Bangladesh <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10054775' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 14*/}
 
@@ -235,13 +235,13 @@ Scopus Indexed</h1>
                         <h1>Conference: 2022 International Conference on Innovations in Science, Engineering and Technology <br />Authors: S Reno, M Ahmed, SA Jui, S Dilshad <br />DOI: 10.1109/ICISET54810.2022.9775834</h1>
                     </div>
                     <div>
-                    <h1>ICISET 2022 <br />
+                    <h1 className='s-r'>ICISET 2022 <br />
 Chittagong, Bangladesh <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9775834' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 15*/}
 
@@ -254,13 +254,13 @@ Authors: N Akter, F Haque, S Reno, M Ahmed <br />
 DOI: 10.1109/INCET54531.2022.9825176</h1>
                     </div>
                     <div>
-                    <h1>INCET 2022 <br />
+                    <h1 className='s-r'>INCET 2022 <br />
 Karnataka, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/9825176' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 16*/}
 
@@ -273,13 +273,13 @@ Authors: MJ Alam, S Hossain, A Shekh, S Reno <br />
 Status: Accepted for Publication </h1>
                     </div>
                     <div>
-                    <h1>IEEE WIECon-ECE 2022 <br />
+                    <h1 className='s-r'>IEEE WIECon-ECE 2022 <br />
 IIIT Naya Raipur, India <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10151082' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 17*/}
 
@@ -293,13 +293,13 @@ Authors: N Jahan, S Reno, M Ahmed <br />
 Status: Accepted for Publication</h1>
                     </div>
                     <div>
-                    <h1>ECCE 2023 <br />
+                    <h1 className='s-r'>ECCE 2023 <br />
 Chattogram, Bangladesh <br />
 ieeexplore.ieee.org <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://ieeexplore.ieee.org/document/10101496' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 18*/}
 
@@ -314,12 +314,12 @@ Authors: S Reno, MM Haque <br />
 DOI: 10.1007/978-981-19-4676-9_14</h1>
                     </div>
                     <div>
-                    <h1>IEMIS 2022 <br />
+                    <h1 className='s-r'>IEMIS 2022 <br />
 Kolkata, India <br />
 springer.com</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://link.springer.com/chapter/10.1007/978-981-19-4676-9_14' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 19*/}
 
@@ -333,13 +333,13 @@ Authors: S Reno, MK Turna <br />
 Status: Accepted for Publication</h1>
                     </div>
                     <div>
-                    <h1>IDEA 2k22 <br />
+                    <h1 className='s-r'>IDEA 2k22 <br />
 Bhopal, India <br />
 springer.com <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 20*/}
 
@@ -354,12 +354,12 @@ Authors: N Jahan, S Reno <br />
 DOI: 10.1007/978-981-19-6004-8_46</h1>
                     </div>
                     <div>
-                    <h1>ICDICI 2022 <br />
+                    <h1 className='s-r'>ICDICI 2022 <br />
 Tirunelveli, India <br />
 springer.com</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://link.springer.com/chapter/10.1007/978-981-19-6004-8_46' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 21*/}
 
@@ -373,13 +373,13 @@ Authors: S Reno, MK Turna, S Tasfia, M Abir, A Aziz <br />
 Status: Accepted for Publication</h1> 
                     </div>
                     <div>
-                    <h1>ICISC 2023 <br />
+                    <h1 className='s-r'>ICISC 2023 <br />
 Coimbatore, India <br />
 springer.com <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='https://link.springer.com/chapter/10.1007/978-981-99-1624-5_15' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 22*/}
 
@@ -394,13 +394,13 @@ Authors: NT Haque, Z Tasnim, AR Chowdhury, S Reno <br />
 Status: Accepted for Publication</h1>
                     </div>
                     <div>
-                    <h1>ICNSBT 2023 <br />
+                    <h1 className='s-r'>ICNSBT 2023 <br />
 Medinipur, India <br />
 springer.com <br />
 Scopus Indexed</h1>
                     </div>
                 </div>
-                <Link target='_blank' to='https://www.researchgate.net/publication/353243856_Mitigating_Loan_Associated_Financial_Risk_Using_Blockchain_Based_Lending_System' className='btn btn-outline mt-5'>View Details</Link>
+                <Link target='_blank' to='' className='btn btn-outline mt-5'>View Details</Link>
             </div> 
             {/* ----------------------- 23*/}
             

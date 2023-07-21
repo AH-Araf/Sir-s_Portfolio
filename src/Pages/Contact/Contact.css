@@ -49,45 +49,31 @@
   .all-icons1 img{
     height: 50px;
     width: 50px;
-    background-color: white;
     border-radius: 10px;
     margin-right: 10px;
-    border: 2px solid white;
+    border: 3px solid black;
+    padding: 2px;
+    transition-duration: 1s;
 } 
+
 .all-icons2:hover{
-    border: 3px solid #00e1ff;
-    box-shadow: 0 0 30px rgb(144, 144, 235);
-    background-color: #00e1ff;
-    transition-duration: 2s;
+    border-radius: 50%;
 } 
 .all-icons3:hover{
-    border: 3px solid red;
-    box-shadow: 0 0 30px red;
-    background-color:salmon;
-    transition-duration: 2s;
+    border-radius: 50%;
 } 
 .all-icons4:hover{
-    border: 3px solid orange;
-    box-shadow: 0 0 30px orangered;
-    background-color:darkred;
-    transition-duration: 2s;
+    border-radius: 50%;
 } 
 .all-icons5:hover{
-    border: 0px solid green;
-    box-shadow: 0 0 30px rgb(186, 221, 133);
-    background-color:yellow;
-    transition-duration: 2s;
+    border-radius: 50%;
+} 
+.all-icons6:hover{
+    border-radius: 50%;
 } 
 .ax img{
     background-color: rgb(92, 209, 92);
 }
-.all-icons6:hover{
-    border: 2px solid gold;
-    box-shadow: 0 0 30px rgb(186, 221, 133);
-    background-color:rgb(64, 212, 121);
-    transition-duration: 2s;
-} 
-
 .mail-section{
     margin: 30px 40px;
     display: flex;
