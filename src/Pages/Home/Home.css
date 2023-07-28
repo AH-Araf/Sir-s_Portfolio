@@ -10,8 +10,11 @@
 }
 .display-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 70px;
+}
+.img-sec{
+    margin-right: 50px;
 }
 .s-text{
     font-size: 34px;
@@ -154,6 +157,9 @@
     .bio{
         color: black;
         font-size:medium;
+    }
+    .img-sec{
+        margin-right: 0px;
     }
 }
 
