@@ -72,7 +72,7 @@
 }
 .bio{
     color: black;
-    
+    font-size: large;
 }
 .intro{
     color: white;
@@ -150,6 +150,10 @@
         align-items: center;
         margin: 20px 15px;
         border-bottom-right-radius: 40px;
+    }
+    .bio{
+        color: black;
+        font-size:medium;
     }
 }
 

@@ -2,8 +2,10 @@ import React from 'react';
 
 import x from '../assets/education-img/baiust.png'
 import y from '../assets/education-img/reve.png'
+import z from '../assets/education-img/uni.jpg'
 
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 const Experience = () => {
     return (
@@ -31,6 +33,25 @@ const Experience = () => {
 the institution. <br /> */}
                             • Staying current by reading widely and producing published work in the field.</small>
                     
+                </div>
+            </div>
+
+            <div className='msc-container'>
+                <div>
+                    <img src={z} alt="" />
+                </div>
+                <div>
+                <div>
+                    <h1 className='text-header'>UniStudies</h1>
+                    <h1>Instructor & Mentor at UniStudies</h1>
+                    <p>March 26, 2023 – Present</p>
+                    <Link target='_blank' to='https://www.facebook.com/photo/?fbid=180407971420517&set=pb.100083539449661.-2207520000.&locale=hi_IN' className='btn btn-outline mt-4'>View Details</Link>
+                    {/* <small>• Developed flowcharts, layouts, and documentation to identify requirements and solutions. <br />
+                            • Integrate software components into a fully functional software system, including writing well-designed and testable code. <br /> 
+                            • Worked to troubleshoot, debug, and maintain software functionality. <br />
+                            • Complied with project plans and industry standards with ensuring software is revised with latest features.</small> <br />
+                 */}
+                </div>
                 </div>
             </div>
 

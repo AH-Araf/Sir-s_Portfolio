@@ -34,13 +34,13 @@ const Header = () => {
   {/* Nav Big */}
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-    <li  className='header-option1'><Link to='/'>Home</Link></li>
+    <li  className='header-option2'><Link to='/'>Home</Link></li>
       
-      <li className='header-option1'><Link to='/article-paper'>Article & Paper</Link></li>
-        <li className='header-option1'><Link to='/certificate'>Certificate</Link></li>
-        <li className='header-option1'><Link to='/education'>Education</Link></li>
-        <li className='header-option1'><Link to='/experience'>Experience</Link></li>
-        <li className='header-option1'><Link to='/contact'>Contact</Link></li>
+      <li className='header-option2'><Link to='/article-paper'>Article & Paper</Link></li>
+        <li className='header-option2'><Link to='/certificate'>Certificate</Link></li>
+        <li className='header-option2'><Link to='/education'>Education</Link></li>
+        <li className='header-option2'><Link to='/experience'>Experience</Link></li>
+        <li className='header-option2'><Link to='/contact'>Contact</Link></li>
     </ul>
   </div>
   

@@ -14,6 +14,7 @@
     width:100%;
     border: 3px solid black;
 }
+
 .contact-info{
     background-color: black;
     color: white;
@@ -41,6 +42,7 @@
     padding: 50px 0px;
     
 }
+
   .all-icons1{
     display: flex;
     justify-content:space-evenly;
@@ -57,19 +59,24 @@
 } 
 
 .all-icons2:hover{
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 } 
 .all-icons3:hover{
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 } 
 .all-icons4:hover{
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 } 
 .all-icons5:hover{
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 } 
 .all-icons6:hover{
-    border-radius: 50%;
+    height: 60px;
+    width: 60px;
 } 
 .ax img{
     background-color: rgb(92, 209, 92);
@@ -123,6 +130,70 @@
 .send-btn:hover{
     background-color:black;
 }
+/*  */
+.main-is{
+    border: 3px solid black;
+    margin: 50px 0px;
+    padding: 30px 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.i-s{ 
+    height: 70px;
+}
+
+.z1{
+    height: 50px;
+    width: 50px;
+    transition-duration: 1.5s;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+.z2{
+    height: 50px;
+    width: 50px;
+    transition-duration: 1.5s;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1px;
+}
+.z3{
+    height: 50px;
+    width: 50px;
+    transition-duration: 1.5s;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+.z4{
+    height: 50px;
+    width: 50px;
+    transition-duration: 1.5s;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+.z1:hover{
+    height: 60px;
+    width: 60px;
+}
+.z2:hover{
+    height: 60px;
+    width: 60px;
+}
+.z3:hover{
+    height: 60px;
+    width: 60px;
+}
+.z4:hover{
+    height: 60px;
+    width: 60px;
+}
+/*  */
+
+
 @media only screen and (max-width: 516px){
     .contact-body{
         padding: 10px;
@@ -142,6 +213,23 @@
         margin-top: 40px;
         padding: 0px 8px;
     }
+    .main-is{
+        border: 3px solid black;
+        margin: 50px 0px;
+        padding: 30px 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
 }
-
+@media only screen and (min-width: 517px)  and ( max-width: 900px){
+    .main-is{
+        border: 3px solid black;
+        margin: 50px 0px;
+        padding: 30px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+}
 
