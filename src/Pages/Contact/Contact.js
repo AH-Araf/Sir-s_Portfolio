@@ -30,7 +30,7 @@ const Contact = () => {
     return (
         <div className='contact-body'>
         <div className='signboard3   p-5'>  
-                <div className='contact-container'>
+                <div className='contact-container bg-slate-400'>
                     <p className='contact-info flick'>Contact Info</p>
                     <p>📞 +880 1706364326</p>  
                     <p>📧 reno.saha39@gmail.com (Personal)</p>
@@ -39,20 +39,7 @@ const Contact = () => {
                     <p>🏠 Cumilla 3500, Bangladesh</p>
                 </div>
         </div>
-        {/* <section className='icon-section'>
-        <div className='p-5 all-icons1'>
-               <div><Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='all-icons2' src={a} alt="" /></Link> </div>
-                <div><Link><img target='_blank'  className='all-icons3' src={b} alt="" /></Link></div>
-                <div><Link target='_blank' to='https://api.whatsapp.com/send?phone=8801706364326'><div className='ax'><img className='all-icons6' src={g} alt="" /></div></Link></div>
-                <div><Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='all-icons2' src={d} alt="" /></Link></div>
-        </div>
-        <div className='p-5 all-icons1'>       
-            <div><Link><img target='_blank' className='all-icons4' src={c} alt="" /></Link></div>
-            <div><Link target='_blank' to='https://t.me/SahaReno'><img className='all-icons2' src={h} alt="" /></Link></div>
-            <div><Link target='_blank' to='https://twitter.com/SahaReno'><img className='all-icons2' src={f} alt="" /></Link></div>
-            <div><Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='all-icons5' src={e} alt="" /></Link></div>
-        </div>
-        </section> */}
+       
 
         <section className='main-is'>
 

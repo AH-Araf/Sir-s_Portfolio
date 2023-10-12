@@ -7,7 +7,8 @@
 .contact-container{
     display: grid;
     justify-content: center;
-    background-color: lavender;
+    color: white;
+    font-size: large;
     padding: 30px 0px;
 }
 .signboard3 {
@@ -209,7 +210,7 @@
     .contact-container{
         display: grid;
         justify-content: center;
-        background-color: lavender;
+        font-size: medium;
         padding: 20px 10px;
     }
     .signboard3 {
