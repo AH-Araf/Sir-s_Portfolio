@@ -3,7 +3,7 @@
     color: black;
     padding: 40px 80px;
     margin-top: 5px;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -37,7 +37,12 @@
     padding: 20px 50px;
     background-color: rgb(189, 214, 189);
 }
-
+.msc-container-text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .msc-container img{
     width: 250px;
     height: 300px;

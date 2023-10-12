@@ -10,11 +10,9 @@ import e from '../assets/icons/orcid.png'
 
 const Footer = () => {
     return (
-        <div className='footer mt-1'>
+        <div className='footer'>
             <div className='footer-container p-5'>
-            <p><small>All copyright reserved @ Saha Reno</small>
-            
-            </p>
+            <p><small>All copyright reserved @ Saha Reno</small></p>
             <p>
                 
                 <small>📧 reno.saha39@gmail.com</small><br />

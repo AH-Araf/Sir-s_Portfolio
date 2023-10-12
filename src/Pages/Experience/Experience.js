@@ -31,8 +31,8 @@ const Experience = () => {
                             • Conducting research and writing papers, proposals, journal articles, and books. <br />
 {/* • Attending and participating in meetings, conferences, training opportunities and initiatives in and outside 
 the institution. <br /> */}
-                            • Staying current by reading widely and producing published work in the field.</small>
-                    
+                            • Staying current by reading widely and producing published work in the field.</small> <br />
+                            <Link target='_blank' to='https://baiust.ac.bd/?page_id=2749' className='btn btn-outline mt-4'>View Details</Link>
                 </div>
             </div>
 

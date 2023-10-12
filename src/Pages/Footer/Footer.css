@@ -8,9 +8,9 @@
     background-color: black;
     color: white;
     padding:40px 120px;
-    font-size: large;
+    font-size: larger;
     font-weight: 500;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
 }

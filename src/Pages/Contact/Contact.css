@@ -2,7 +2,7 @@
     background-color: white;
     color: black;
     padding: 50px;
-    font-family: "Times New Roman", Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contact-container{
     display: grid;
@@ -134,7 +134,7 @@
 .main-is{
     border: 3px solid black;
     margin: 50px 0px;
-    padding: 30px 450px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;  
@@ -192,7 +192,15 @@
     width: 60px;
 }
 /*  */
-
+.all-icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.item-n{
+    height: 80px;
+    width: 80px;
+}
 
 @media only screen and (max-width: 516px){
     .contact-body{

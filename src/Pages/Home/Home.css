@@ -1,8 +1,12 @@
 .home-body{
-   margin-bottom: 80px;
-   /* font-family: Helvetica, Helvetica, sans-serif; */
-   font-family: "Times New Roman", Times, serif;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.marquee-css{
+    font-size: x-large;
+    font-weight: 600;
+    padding: 20px 0px;
 }
+
 .profile-photo{
     height: 400px;
     padding: 4px;
@@ -62,9 +66,7 @@
     margin: 20px 50px;
     padding: 20px 10px;
     border-radius: 10px;
-    background-color: white;
-   
-    /* border: 5px solid gray; */
+
 }
 .col{
     column-count: 2;
@@ -160,6 +162,11 @@
     }
     .img-sec{
         margin-right: 0px;
+    }
+    .marquee-css{
+        font-size: larger;
+        font-weight: 600;
+        padding: 12px 0px;
     }
 }
 

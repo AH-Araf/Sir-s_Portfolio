@@ -57,20 +57,20 @@ const Contact = () => {
         <section className='main-is'>
 
         <div className='i-s'>
-        <div className='grid grid-cols-4 gap-4 '>
-               <div><Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='z1' src={a} alt="" /></Link> </div>
-                <div><Link><img target='_blank'  className='z2' src={b} alt="" /></Link></div>
-                <div><Link target='_blank' to='https://api.whatsapp.com/send?phone=8801706364326'><div className='ax'><img className='z3' src={g} alt="" /></div></Link></div>
-                <div><Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='z4' src={d} alt="" /></Link></div>
+        <div className='all-icon-container'>
+               <div className='item-n'><Link target='_blank' to='https://www.facebook.com/SahaReno'><img className='z1' src={a} alt="" /></Link> </div>
+                <div className='item-n'><Link><img target='_blank'  className='z2' src={b} alt="" /></Link></div>
+                <div className='item-n'><Link target='_blank' to='https://api.whatsapp.com/send?phone=8801706364326'><div className='ax'><img className='z3' src={g} alt="" /></div></Link></div>
+                <div className='item-n'><Link target='_blank' to='https://www.linkedin.com/in/sahareno/'><img className='z4' src={d} alt="" /></Link></div>
         </div>
         </div>
 
         <div className='i-s'>
-        <div className='grid grid-cols-4 gap-4 '>
-               <div><Link><img target='_blank' className='z1' src={c} alt="" /></Link></div>
-                <div><Link target='_blank' to='https://t.me/SahaReno'><img className='z2' src={h} alt="" /></Link></div>
-                <div><Link target='_blank' to='https://twitter.com/SahaReno'><img className='z3' src={f} alt="" /></Link></div>
-                <div><Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='z4' src={e} alt="" /></Link></div>
+        <div className='all-icon-container'>
+               <div className='item-n'><Link><img target='_blank' className='z1' src={c} alt="" /></Link></div>
+                <div className='item-n'><Link target='_blank' to='https://t.me/SahaReno'><img className='z2' src={h} alt="" /></Link></div>
+                <div className='item-n'><Link target='_blank' to='https://twitter.com/SahaReno'><img className='z3' src={f} alt="" /></Link></div>
+                <div className='item-n'><Link target='_blank' to='https://orcid.org/0000-0003-1897-9002'><img className='z4' src={e} alt="" /></Link></div>
         </div>
         </div>
 
