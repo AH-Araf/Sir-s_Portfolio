@@ -71,7 +71,7 @@ const Home = () => {
               olores? ConsecteturEveniet, sit, earum cumque vel odio nesciunt ut porro maiores necessitatibus neque aut blanditiis! Voluptatem eveniet, ratione corporis ipsum ab molestiae voluptatibus eius? Culpa voluptates vel rem tenetur incidunt nesciunt?
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure eius placeat! Minus, veritatis cum? Deserunt dolor, odio fugiat id enim mollitia, placeat repudiandae illum fuga soluta natus aperiam totam?
               olores? ConsecteturEveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure eius placeat! Minus, veritatis cum? Deserunt dolor, odio fugiat id enim mollitia, placeat repudiandae illum fuga soluta natus aperiam totam?
-              olores? ConsecteturEveniet
+              olores? ConsecteturEvenietdfgdfg
               </p>
           </div>
 
