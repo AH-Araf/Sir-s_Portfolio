@@ -1,122 +1,85 @@
-import React from 'react';
-import b from '../assets/images/b.jpg'
-import d from '../assets/documents/resume.pdf'
-import e from '../assets/documents/cv.pdf'
-import './Home.css'
-// import { Typewriter } from 'react-simple-typewriter';
-import Marquee from "react-fast-marquee";
-import { motion, AnimatePresence } from "framer-motion";
-
+import React, { useEffect, useState } from 'react';
+import './Home.css';
+import Marquee from 'react-fast-marquee';
 
 const Home = () => {
-  const transition = {
-    duration: 1,
-    type: "spring",
-  };
+  const [home, setHome] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://saha-reno-portfolio-backend.onrender.com/home');
+        const data = await response.json();
+        setHome(data);
+        setLoading(false); // Set loading to false after data is fetched
+      } catch (error) {
+        console.error('Error fetching user details:', error);
+        setLoading(false); // Set loading to false in case of an error
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return <div className='MainLoader text-center py-52'><span class="loader"></span></div>;
+  }
 
   return (
-    <div className='home-body'>
-      <section className='sec-1'>
-        <motion.div className='display-flex'
-          initial={{ opacity: "00", }}
-          animate={{ opacity: "100%", }}
-          exit={{ opacity: "100%", }}
-        >
-          <div className='img-sec'><img className='profile-photo' src={b} alt="" />
-            <div className='cv-resume mt-5'>
-              <a className='btn btn-outline ' href={e} download={e.pdf}>Download CV</a>
-              <a className='btn btn-outline  mt-top' href={d} download={d.pdf}>Download Resume</a>
-            </div>
-          </div>
+    <div>
+      {home?.map((a) => (
+        <div className='home-body' key={a.id}>
+          <section className='sec-1'>
+            <div className='display-flex'>
+              <div className='img-sec'>
+                <img className='profile-photo' src={a.image} alt="" />
+                <div className='cv-resume mt-5'>
+                  <a
+                    className='btn btn-outline'
+                    href={`${a.cv}`}
+                    download={`YourCVFileName.pdf`}
+                  >
+                    Download CV
+                  </a>
+                  <a
+                    className='btn btn-outline'
+                    href={a.resume}
+                    download={`YourCVFileName.pdf`}
+                  >
+                    Download Resume
+                  </a>
+                </div>
+              </div>
 
-          {/* Auto Write */}
-          <div className=' display-flex1'>
-            <div >
-              <h1 style={{ paddingTop: '', margin: '', fontWeight: '' }}>
-                {' '}
-                {/* <span className='s-text'>
-          <Typewriter
-            words={['Hello!', 
-            'I am Saha Reno', 
-            'Teaching Professional', 
-            'Research Scholar',
-            'Lecturer, CSE at BAIUST',
-            'Instructor, CSE at UniStudies',
-            'Blockchain Specialist'
-            
-        ]}
-            loop={5}
-            cursor
-            cursorStyle='_'
-            typeSpeed={120}
-            deleteSpeed={80}
-            delaySpeed={1000}
-            
-          />
-        </span> */}
-
-                <Marquee>
-                  <h1 className='marquee-css'>
-                    . Hello! I am Saha Reno. Teaching Professional. Research Scholar.
-                    Lecturer, CSE at BAIUST. Instructor, CSE at UniStudies. Blockchain Specialist
+              {/* Auto Write */}
+              <div className='display-flex1'>
+                <div>
+                  <h1 style={{ paddingTop: '', margin: '', fontWeight: '' }}>
+                    {' '}
+                    <Marquee>
+                      <h1 className='marquee-css'>{a.marquee}</h1>
+                    </Marquee>
                   </h1>
-                </Marquee>
-
-
-
-              </h1>
+                </div>
+                <h3 className='intro'>Introduction</h3>
+                <p className='bio'>{a.introduction}</p>
+              </div>
             </div>
-            <h3 className='intro'>Introduction</h3>
-            <p className='bio'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure eius placeat! Minus, veritatis cum? Deserunt dolor, odio fugiat id enim mollitia, placeat repudiandae illum fuga soluta natus aperiam totam?
-              olores? ConsecteturEveniet, sit, earum cumque vel odio nesciunt ut porro maiores necessitatibus neque aut blanditiis! Voluptatem eveniet, ratione corporis ipsum ab molestiae voluptatibus eius? Culpa voluptates vel rem tenetur incidunt nesciunt?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure eius placeat! Minus, veritatis cum? Deserunt dolor, odio fugiat id enim mollitia, placeat repudiandae illum fuga soluta natus aperiam totam?
-              olores? ConsecteturEveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas iure eius placeat! Minus, veritatis cum? Deserunt dolor, odio fugiat id enim mollitia, placeat repudiandae illum fuga soluta natus aperiam totam?
-              olores? ConsecteturEvenietdfgdfg
-              </p>
-          </div>
+          </section>
 
-
-
-
-        </motion.div>
-      </section>
-
-
-      {/* Second Section */}
-      <section className='s2-header'>
-        <motion.div
-          initial={{ opacity: "00", }}
-          animate={{ opacity: "100%", }}
-          exit={{ opacity: "100%", }}
-        >
-          <h1 className='h1'>Currently Working</h1>
-          <h3 className='h3'>Bangladesh Army International University of Science and Technology, Cumilla Cantonment, Bangladesh</h3>
-          <p className='p'>Lecturer (Computer Science & Engineering) – Permanent for Full Time Service</p>
-          <p className='p'>Mar 2019 – Present</p>
-
-        </motion.div>
-
-      </section>
-
-      <section>
-
-      </section>
-
-
-
-
+          <section className='s2-header'>
+            <div>
+              <h1 className='h1'>Currently Working</h1>
+              <h3 className='h3'>{a.cwi}</h3>
+              <p className='p'>{a.designation}</p>
+              <p className='p'>{a.sd} – Present</p>
+            </div>
+          </section>
+        </div>
+      ))}
     </div>
   );
 };
 
 export default Home;
-
-
-
-
-
-
-
-
-
-

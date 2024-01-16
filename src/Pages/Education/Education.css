@@ -33,6 +33,15 @@
     transition-duration: 2.5s;
 }
 
+/* .msc-containerFin{
+    margin-top: 20px;
+    column-count: 2;
+    padding: 20px;
+    border: 5px solid lightgray;
+    border-radius: 25px;
+    transition-duration: 2.5s;
+} */
+
 .msc-container:hover{
     padding: 20px 50px;
     background-color: rgb(189, 214, 189);

@@ -1,0 +1,12 @@
+.AdminDashBoardMainSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 516px) {
+    .AdminDashBoardMainSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

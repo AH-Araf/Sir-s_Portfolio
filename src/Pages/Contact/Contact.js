@@ -10,20 +10,25 @@ import e from '../assets/icons/orcid.png'
 import f from '../assets/icons/twitter1.png'
 import g from '../assets/icons/whatsapp.png'
 import h from '../assets/icons/telegram.png'
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
     const form = useRef();
+
     const sendEmail = event => {
-      event.preventDefault();
-      emailjs.sendForm('service_cymluun', 'template_5o7j0vp', form.current, 'g0j5cDpujfr2vRjoG')
-        .then((result) => {
-            console.log(result.text); 
-            alert('Message Sent')   
-             
-        }, (error) => {
-            console.log(error.text);
-        });
+        event.preventDefault();
+
+        emailjs.sendForm('service_cymluun', 'template_5o7j0vp', form.current, 'g0j5cDpujfr2vRjoG')
+            .then((result) => {
+                console.log(result.text);
+                Swal.fire('Message Sent', '', 'success');
+                form.current.reset(); // Clear the form
+            })
+            .catch((error) => {
+                console.error(error.text);
+                Swal.fire('Error Sending Message', '', 'error');
+            });
     };
 
 

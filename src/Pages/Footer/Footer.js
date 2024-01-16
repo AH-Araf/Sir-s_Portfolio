@@ -17,7 +17,7 @@ const Footer = () => {
                 
                 <small>📧 reno.saha39@gmail.com</small><br />
                 <small>📞 +880 1706364326</small> <br />
-                <small>🏠 Cumilla 3500, BD</small>
+                    <small>🏠 Cumilla 35<span><Link to='/dashboard/adminHome'>0</Link></span>0, BD</small>
             </p>
             </div>
             {/* <i class="fa-solid fa-flag"></i> */}
